@@ -1,7 +1,30 @@
 {
   "name": "nodejs-demo",
-  "main": "",
+  "version": "1.0.0",
+  "description": "学习联系",
+  "main": "index.js",
   "dependencies": {
-    "express": "^4.16.3"
-  }
+    "cheerio": "^1.0.0-rc.2",
+    "eventproxy": "^1.0.0",
+    "express": "^4.16.3",
+    "superagent": "^3.8.2",
+    "utility": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenyejie/nodejs-demo.git"
+  },
+  "keywords": [
+    "学习笔记"
+  ],
+  "author": "Storm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenyejie/nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/wenyejie/nodejs-demo#readme"
 }
