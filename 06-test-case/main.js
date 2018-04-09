@@ -6,6 +6,14 @@
  */
 
 const fibonacci = (n) => {
+  if (typeof n !== 'number') {
+    throw new Error('n should be a Number');
+  } else if (n < 0) {
+    throw new Error('n should >= 0');
+  } else if (n > 10) {
+    throw new Error('n should <= 10');
+  }
+
   if (n === 0) {
     return 0;
   }
